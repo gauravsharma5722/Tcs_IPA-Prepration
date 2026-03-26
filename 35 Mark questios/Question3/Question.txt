@@ -1,0 +1,24 @@
+// Create a class TravelAgencies with below attributes:-
+// regNo - int
+// agencyName - String
+// packageType - String
+// price - int
+// flightFacility -boolean
+
+// Write getters,setters for the above attributes .Create constructor which takes parameter in the above sequence.
+// Create Class Solution with main method.Implement two static methods - findAgencyWithPackagePrice and agencyDetailsForGivenIdAndType method in  Solution class .
+
+// * findAgencyWithPackagePrice method*
+// This method will take array of TravelAgencies objects as an input parameter and return the highest price from the given array of objects.
+
+// * agencyDetailsForGivenIdAndType method:*
+// This method will take three input parameters -arrayofTravelAgencies Object,int parameter regNo and String parameter packageType .The method will return :-
+// 1.flightFacility should be available
+// 2.The input parameters(regNo and packageType) should match with the regNo and packageType of TravelAgencies objects.
+// If any of the above conditions are not met,then the method should return null.
+// Note:= Same travel agency can have more than one package type.TravelAgency and package type combination is unique .All the searches should be case insensitive .
+
+// The above mentioned static method should be called from the main method
+
+// For findAgencyWithHighestPackagePrice method - The main method should print the highest package Price as it is .
+// agencyDetailsForGivenIdAndType method - The main method should print the AgencyName and price of the returned object . the agencyName  and price should be concatinated with :while printing
