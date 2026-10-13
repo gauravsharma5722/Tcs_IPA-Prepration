@@ -1,0 +1,20 @@
+/*Problem Statement
+
+Create a class NavelVessel with the below attributes:
+vesselId  - int
+vesselName - String
+noOfVoyagesPlanned -int
+noOfVoyagesCompleted - int
+purpose - String
+
+Write getters,setters for the above attributes.Create constructor which takes parameter in the above sequence except classification.
+
+Create class Solution with main method. Implement one static methods - findAvgVoyagesByPct in solution class.
+
+*** findAvgVoyagesByPct method: ***
+This method will take two input parameters -array of NavalVessel objects and int parameter percentage .The method will return the average of the noOfVoyagesCompleted attribue from NavalVessel objects which meets the percentage requirement as mentioned below.The percentage for each navalVessel is calculated as Percentage (noOfVoyagesCompleted*100)/noOfVoyagesPlanned .
+If the above calculated percentage is greater than or equal to the percentage  passed as the parameter,then those objects should participate in the average calculation. If there are no objects with the mentioned criteria, then the method should return 0.
+
+Before calling these static methods in main ,use Scanner object to read the values of four NavalVessel objects referring attributes in the above mentioned attribute sequence(except the classification attribute) .Next,read the value for percentage and purpose.
+
+*/
